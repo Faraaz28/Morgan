@@ -1,0 +1,40 @@
+.Navbar {
+    border-bottom: solid 3px rgb(240, 159, 37);
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    /* background-color: blue; */
+  
+
+
+}
+
+.logo {
+    margin-left: -81px;
+    margin-bottom: 18px;
+    height: 45px;
+
+}
+
+.Navbarr {
+    /* justify-content: right; */
+    /* background-color: rgb(235, 232, 53); */
+    /* margin-top: -43px; */
+    /* padding: 200px; */
+    margin-bottom: 18px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: black; 
+}
+
+
+
+.homebtn {
+    /* background-color: rgb(252, 0, 0); */
+    margin-right: -35px;
+    font-size: 17px;
+    font-weight: 600;
+    justify-content: end;
+
+
+}

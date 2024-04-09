@@ -1,0 +1,121 @@
+.background {
+    max-width: 1000px;
+    padding-top: 290px;
+    padding-left: 290px;
+
+
+}
+
+
+.bgimg {
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-image: url(../../assets/bg.jpg);
+}
+
+.home-img {
+    margin-top: 110px;
+}
+
+.home-para {
+    font-size: 25px;
+
+}
+
+.tital {
+    text-align: center;
+    /* margin: 200px, 0px, 0px, 0px; */
+    margin-top: 60px;
+}
+
+/* .cards {
+    margin-left: 10px;
+
+} */
+
+.card-img {
+    height: 300px;
+
+}
+
+.card-tital {
+    color: rgb(240, 159, 37);
+    font-size: 25px;
+}
+
+.price {
+    margin-left: 250px;
+    margin-top: -35px;
+}
+
+
+.div {
+    height: 300px;
+    width: 200px;
+    border: solid 2px rgb(240, 159, 37);
+}
+
+.div-one {
+    margin: 100px 0px 0px 75px;
+    justify-content: center;
+}
+
+.div-text {
+    margin: 10px 0px 0px 62px;
+}
+
+.div-text4 {
+    margin: 10px 0px 0px 72px;
+}
+
+.div-text3 {
+    margin: 10px 0px 0px 63px;
+}
+
+.div-text2 {
+    margin: 10px 0px 0px 45px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .logo {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        height: 45px;
+
+    }
+
+    .background {
+        height: 400px;
+        margin-top: -200px;
+        width: 600px;
+        margin-left: -240px;
+    }
+
+    .bgimg {
+
+        height: 295px;
+        width: 393px;
+    }
+
+    .home-img {
+        margin-top: 9px;
+        height: 200px;
+        width: 370px;
+        margin-bottom: 300px;
+        border-radius: 5%;
+    }
+
+    .home-para {
+        font-size: 20px;
+        color: rgb(75, 73, 73);
+    }
+
+
+
+
+}
