@@ -1,0 +1,27 @@
+.about{
+    background-image: url(../../assets/bg-image.jpg);
+    height: 450px;
+}
+
+.text{
+    margin: -250px 0px 0px 0px;
+    font-size: 130px;
+    color: rgb(235, 230, 230);
+    text-align: center;
+}
+
+.fewword{
+    margin: 140px 0px 0px 0px; 
+    font-size: 45px;
+    /* text-align: center; */
+}
+
+.image{
+    margin: 170px 0px 150px 40px;
+    border-radius: 10px;
+
+}
+
+.para{
+    font-size: 18px;
+}

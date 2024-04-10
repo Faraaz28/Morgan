@@ -2,6 +2,7 @@
     max-width: 1000px;
     padding-top: 290px;
     padding-left: 290px;
+   
 
 
 }
@@ -12,6 +13,7 @@
     height: 800px;
     width: 100%;
     background-image: url(../../assets/bg.jpg);
+
 }
 
 .home-img {
@@ -78,8 +80,25 @@
 }
 
 .footer-button{
-justify-content: center;
+/* justify-content: center; */
+/* align-items: center; */
+margin: 10px 0px 0px 600px;
 }
+
+.secdiv{
+ text-align: end;
+ margin-top: -25px;
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-decoration: underline  ;
+    /* text-align: center; */
+
+}
+
 
 
 

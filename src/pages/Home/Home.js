@@ -10,7 +10,8 @@ import Button from 'react-bootstrap/Button';
 import apple from '../../assets/apple-logo.png'
 import Shopping from "../../components/Shopping"
 import Container from 'react-bootstrap/Container';
-import bgimg from '../../assets/brand-inverse.png'
+import bgimg from '../../assets/brand-inverse.png';
+import Footer from "../../components/Footer";
 
 function ContainerFluidExample() {
 
@@ -43,7 +44,7 @@ function ContainerFluidExample() {
         </Container>
       </div>
 
-        < Shopping/>
+      < Shopping />
 
       <h1 className='tital' >Service</h1>
       <Container>
@@ -86,8 +87,10 @@ function ContainerFluidExample() {
           </Col>
         </Row>
       </Container>
+      <Button className='btn mb-5 mt-5' variant="outline-warning  footer-button">View All Service</Button>{' '}
 
-      <Button className='btn' variant="outline-warning  footer-button">Learn More</Button>{' '}
+      <Footer />
+
     </>
 
   );

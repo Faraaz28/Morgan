@@ -1,14 +1,11 @@
 import './App.css';
 import Home from './pages/Home/Home';
-import Contact from './pages/Contact/Contact';
-
-
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Blogs from './pages/Blogs/Blogs';
 import About from './pages/About/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './pages/Contact/Contact';
+import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
