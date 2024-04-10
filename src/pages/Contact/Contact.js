@@ -1,4 +1,5 @@
 import React from 'react'
+// import Shopping from '../components/Shopping'
 import Shopping from '../../components/Shopping'
 
 function Contact() {

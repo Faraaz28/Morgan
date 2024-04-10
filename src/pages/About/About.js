@@ -1,12 +1,12 @@
 import React from 'react'
-import Shopping from '../../components/Shopping'
+import Shopping from "../../components/Shopping";
 
 
 function About() {
   return (
     <div>
-      <Shopping/>
- 
+
+        <Shopping/>
       
     </div>
   )

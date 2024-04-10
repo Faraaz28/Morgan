@@ -1,0 +1,214 @@
+/* <Container>
+<Row>
+  <Col className='mt-5'>
+    <h1>A Few Words About Me</h1>
+    <p className=' home-para mt-5'>
+      My name is Samantha Morgan, and I have been a fine artist since my youth. I find inspiration from the innovative styles of contemporary and urban art, such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. It educates visually by either moving you, pleasing you, or even inspiring you.
+    </p>
+    <Button className='btn' variant="outline-warning">Start</Button>{' '}
+
+  </Col>
+  <Col>
+    <img className='home-img' src={homeimg} alt="" />
+  </Col>
+</Row>
+</Container>
+</div>
+<section>
+<h1 className='tital' >My Paintings</h1>
+<Container>
+<Row>
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img src={project1} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Sea Storm</Card.Title>
+          <Card.Text>
+            This paintings is one of my latest works on sea ..
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Sea Storm</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>  <Card.Img src={project1} /> This paintings is one of my latest works on sea .. This paintings is one of my latest works on sea .. This paintings is one of my latest works on sea .. This paintings is one of my latest works on sea .. This paintings is one of my latest works on sea ..</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img src={project2} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Watercolor Portrait</Card.Title>
+          <Card.Text>
+            When I have been to Scotland, I made this painting...
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Watercolor Portrait</Modal.Title>
+            </Modal.Header>
+            <Modal.Body> <Card.Img src={project2} /> When I have been to Scotland, I made this painting...When I have been to Scotland, I made this painting...When I have been to Scotland, I made this painting...</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img className='card-img' src={project3} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Two Lovers</Card.Title>
+          <Card.Text>
+            This work was finished in two days for my custo...
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Sea Storm</Modal.Title>
+            </Modal.Header>
+            <Modal.Body> <Card.Img src={project3} /> This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer. This work was finished in two days for my customer.</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+</Row>
+</Container>
+</section>
+
+<section>
+<Container>
+<Row>
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img src={project4} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Birches in Autumn</Card.Title>
+          <Card.Text>
+            This paintings is one of my latest works on sea ..
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Birches in Autumn</Modal.Title>
+            </Modal.Header>
+            <Modal.Body> <Card.Img src={project4} /> This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer. This work was finished in two days for my customer.</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img src={project5} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Ruins of Ancient Fortress</Card.Title>
+          <Card.Text>
+            When I have been to Scotland, I made this painting...
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Birches in Autumn</Modal.Title>
+            </Modal.Header>
+            <Modal.Body> <Card.Img src={project5} /> This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer. This work was finished in two days for my customer.</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+
+  <Col className='mt-5'>
+    <div className='cards'>
+      <Card style={{ width: '21rem' }}>
+        <Card.Img className='card-img' src={project6} />
+        <Card.Body>
+          <Card.Title className='card-tital pb-3'>Green Landscape</Card.Title>
+          <Card.Text>
+            This work was finished in two days for my customer...
+          </Card.Text>
+
+          <Button variant="outline-warning" onClick={handleShow}>
+            View Detail
+          </Button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title className='card-tital pb-3'>Green Landscape</Modal.Title>
+            </Modal.Header>
+            <Modal.Body> <Card.Img src={project6} /> This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer This work was finished in two days for my customer. This work was finished in two days for my customer.</Modal.Body>
+            <Modal.Footer>
+              <Button variant="outline-warning" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+          <h5 className='price'>$200</h5>
+        </Card.Body>
+      </Card>
+    </div>
+  </Col>
+</Row>
+</Container>
+</section> */

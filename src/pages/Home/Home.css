@@ -77,6 +77,10 @@
     margin: 10px 0px 0px 45px;
 }
 
+.footer-button{
+justify-content: center;
+}
+
 
 
 @media only screen and (max-width: 600px) {

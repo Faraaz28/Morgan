@@ -1,10 +1,9 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import apple from '../../assets/logo.png';
 import "./Navbar.css";
+import Nav from 'react-bootstrap/Nav';
+import apple from '../../assets/logo.png';
 import { NavLink } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
 function BasicExample() {
   return (

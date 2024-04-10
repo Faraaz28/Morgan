@@ -1,28 +1,24 @@
-import React from 'react'
-// import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-// import Button from '../../components/Button';
-
-
+import "./Shopping.css";
+import React from 'react';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
-
-
+import Button from 'react-bootstrap/Button';
 import project1 from '../assets/project-1.jpg';
 import project2 from '../assets/project-2.jpg';
 import project3 from '../assets/project-3.jpg';
 import project4 from '../assets/project-4.jpg';
 import project5 from '../assets/project-5.jpg';
 import project6 from '../assets/portrait-3.jpg';
+import Container from 'react-bootstrap/Container';
 
 export default function Shopping() {
 
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
 
   const paintings = [
     {
@@ -57,71 +53,43 @@ export default function Shopping() {
     }
   ];
 
-
-
-
-
   return (
     <>
-
-
-      <h2 className='text-center text-5xl'>My Paintings</h2>
-
-      {paintings.map((item) => (
-
-        <div >
-
-          <Card style={{ width: '18rem' }}>
-
-            <Card.Img variant="top" src={item.image} />
-
-            <Card.Body>
-
-              <Card.Title>{item.title}</Card.Title>
-
-              <Card.Text>
-
-                {item.description}
-
-              </Card.Text>
-
-              <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
-              </Button>
-
-              <Modal show={show} onHide={handleClose} animation={false}>
-
-                <Modal.Header closeButton>
-
-             
-
-                  <Modal.Title>{item.title}</Modal.Title>
-
-                </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleClose}>
-                    Close
+      <Container>
+        <Row>
+          <h1 className='text-center painting  '>My Paintings</h1>
+          {paintings.map((item) => (
+            <Col className='pt-5' lg={4}>
+              <Card style={{ width: '20rem' }}>
+                <Card.Img variant="top" src={item.image} height={'320rem'} />
+                <Card.Body>
+                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Text>
+                    {item.description}
+                  </Card.Text>
+                  <Button variant="outline-warning" onClick={handleShow}>
+                     View Demo
                   </Button>
-                  <Button variant="primary" onClick={handleClose}>
-                    Save Changes
-                  </Button>
-                </Modal.Footer>
-              </Modal>
-
-
-
-            </Card.Body>
-
-          </Card>
-
-        </div>
-
-      ))}
-
-
-
-
+                  <Modal show={show} onHide={handleClose} animation={false}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>{item.title}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="outline-warning" onClick={handleClose}>
+                        Close
+                      </Button>
+                      <Button variant="outline-warning" onClick={handleClose}>
+                        Save Changes
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))
+          }
+        </Row></Container>
     </>
   )
 }
