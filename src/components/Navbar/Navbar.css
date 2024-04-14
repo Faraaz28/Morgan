@@ -4,11 +4,8 @@
     background-color: white;
     position: fixed;
     z-index: 1;
+    padding: 40px 0px 20px 0px;
     /* background-color: blue; */
-
-  
-
-
 }
 
 .logo {
@@ -23,8 +20,7 @@
     /* background-color: rgb(235, 232, 53); */
     /* margin-top: -43px; */
     /* padding: 200px; */
-    margin-bottom: 18px;
-    margin-right: 35px;
+    margin: 0px 50px 18px 0px;
     text-decoration: none;
     color: black; 
 }
@@ -33,10 +29,53 @@
 
 .homebtn {
     /* background-color: rgb(252, 0, 0); */
-    margin-right: -35px;
+    margin-right: -105px;
     font-size: 17px;
     font-weight: 600;
     justify-content: end;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.Navbarr {
+    /* justify-content: right; */
+    /* background-color: rgb(235, 232, 53); */
+    /* margin-top: -43px; */
+    /* padding: 200px; */
+    margin: 0px 50px 18px 0px;
+    text-decoration: none;
+    color: black; 
+}
+
+.homebtn {
+    /* background-color: rgb(252, 0, 0); */
+    margin-right: -105px;
+    font-size: 17px;
+    font-weight: 600;
+    justify-content: end;
+
+
+}
+
+.Navbar {
+    border-bottom: solid 3px rgb(240, 159, 37);
+    /* width: 100%; */
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    /* padding: 40px 0px 20px 0px; */
+    margin: 0px -100px 0px 0px;
+    background-color: blue;
+}
+
+.nvbtn{
+    margin: 0px 300px 0px 0px;
+}
+
+
 
 
 }

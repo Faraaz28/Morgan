@@ -10,14 +10,14 @@ function BasicExample() {
     <Navbar expand="lg" className="Navbar">
       <Container>
             <img src={apple} className='logo' alt="" />
-        <Navbar.Toggle  aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className="nvbtn" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  className="homebtn" id="basic-navbar-nav">
           <Nav>
             <NavLink className='Navbarr' to="/">Home</NavLink>
             <NavLink className='Navbarr' to="/About">About</NavLink>
-            <NavLink className='Navbarr' to="">Service</NavLink>
-            <NavLink className='Navbarr' to="">Blogs</NavLink>
-            <NavLink className='Navbarr' to="">Contact</NavLink>
+            <NavLink className='Navbarr' to="/Service">Service</NavLink>
+            <NavLink className='Navbarr' to="/blogs">Blogs</NavLink>
+            <NavLink className='Navbarr' to="/Contact">Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

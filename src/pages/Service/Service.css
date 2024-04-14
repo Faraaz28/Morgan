@@ -1,0 +1,15 @@
+.images{
+    margin: 180px 0px 0px 0px;
+    height: 400px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.image-service{
+    border-radius: 30px;
+}
+
+.text-service{
+    color: rgb(240, 159, 37);
+    margin: 20px 0px 0px 200px;
+}

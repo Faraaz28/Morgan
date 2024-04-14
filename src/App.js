@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Service from './pages/Service/Service';
 
 function App() {
   return (
@@ -16,14 +17,17 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/Blogs">
-            <Blogs />
-            </Route>
           <Route path="/About">
             <About />
+            </Route>
+          <Route path="/Service">
+            <Service />
+          </Route>
+          <Route path="/Blogs">
+            <Blogs />
           </Route>
           <Route path="/Contact">
-            <Contact />
+            <Contact/>
           </Route>
         </Switch>
       </Router>
