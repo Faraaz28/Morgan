@@ -1,26 +1,28 @@
 .Navbar {
     border-bottom: solid 3px rgb(240, 159, 37);
-    width: 100%;
+    max-width: 100%;
     background-color: white;
     position: fixed;
     z-index: 1;
-    padding: 40px 0px 20px 0px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* padding: 0px 0px 20px 0px; */
     /* background-color: blue; */
 }
 
 .logo {
-    margin-left: -81px;
-    margin-bottom: 18px;
+    /* margin-left: -81px; */
+    /* margin-top: 20; */
+    /* margin-bottom: 0px; */
     height: 45px;
+    padding-right: -40px;
+    /* margin-right: 100px; */
 
 }
 
 .Navbarr {
-    /* justify-content: right; */
-    /* background-color: rgb(235, 232, 53); */
-    /* margin-top: -43px; */
-    /* padding: 200px; */
-    margin: 0px 50px 18px 0px;
+
+    margin: 20px 50px 18px 10px;
     text-decoration: none;
     color: black; 
 }
@@ -29,9 +31,9 @@
 
 .homebtn {
     /* background-color: rgb(252, 0, 0); */
-    margin-right: -105px;
+    /* margin-right: -105px; */
     font-size: 17px;
-    font-weight: 600;
+    /* font-weight: 600; */
     justify-content: end;
 
 
@@ -52,7 +54,7 @@
 
 .homebtn {
     /* background-color: rgb(252, 0, 0); */
-    margin-right: -105px;
+    margin-right: 0px;
     font-size: 17px;
     font-weight: 600;
     justify-content: end;
@@ -61,18 +63,29 @@
 }
 
 .Navbar {
-    border-bottom: solid 3px rgb(240, 159, 37);
+    /* border-bottom: solid 3px rgb(240, 159, 37); */
     /* width: 100%; */
-    background-color: white;
-    position: fixed;
-    z-index: 1;
+    /* background-color: white; */
+    /* position: fixed; */
+    /* z-index: 1; */
     /* padding: 40px 0px 20px 0px; */
-    margin: 0px -100px 0px 0px;
-    background-color: blue;
+    /* margin: 0px -100px 0px 0px; */
+    /* background-color: blue; */
+    /* width: 393px; */
+    /* height: 200px; */
 }
 
 .nvbtn{
-    margin: 0px 300px 0px 0px;
+    margin:15px 0px 0px 0px;
+}
+
+.logo {
+    margin-left: 0px;
+    margin-bottom: 12px;
+
+    margin: 25px 0px 15px 5px;
+    height: 45px;
+
 }
 
 

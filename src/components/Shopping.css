@@ -1,3 +1,13 @@
 .painting{
-    padding-top: 90px;
+    padding-top: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.card-item{
+    padding: 0px 20px;
+
+}
+
 }

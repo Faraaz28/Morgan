@@ -22,16 +22,16 @@ function ContainerFluidExample() {
   return (
     <>
       <div className='bgimg'>
-        <div>
-          <img className='background' src={bgimg} alt="" />
-        </div>
+        
+          <img className='background' src={bgimg} alt="back-img" />
       </div>
+
       <div>
         <Container>
           <Row>
-            <Col className='mt-5'>
+            <Col className='mt-5 ms-4'>
               <h1>A Few Words About Me</h1>
-              <p className=' home-para mt-5'>
+              <p className=' home-para mt-4'>
                 My name is Samantha Morgan, and I have been a fine artist since my youth. I find inspiration from the innovative styles of contemporary and urban art, such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. It educates visually by either moving you, pleasing you, or even inspiring you.
               </p>
               <Button className='btn' variant="outline-warning">Learn More</Button>{' '}
@@ -43,8 +43,10 @@ function ContainerFluidExample() {
           </Row>
         </Container>
       </div>
-
       < Shopping />
+
+
+      
 
       <h1 className='tital' >Service</h1>
       <Container>
@@ -53,37 +55,35 @@ function ContainerFluidExample() {
         </Row>
       </Container>
 
-      <Container>
+      <Container className="pt-5">
         <Row>
-          <Col className='div'>
-            <div1 >
-              <img className='div-one' src={user} alt="" />
-              <h3 className='div-text'>Portrait</h3>
+          <Col className=' box'>
+        
+              <img className='div-one img' src={user} alt="" />
+              <h3 className='div-text1'>Portrait</h3>
 
-            </div1>
+           
           </Col>
 
-          <Col className='div ms-5'>
-            <div2 >
-              <img className='div-one' src={leaf} alt="" />
+          <Col className='box ms-5'>
+        
+              <img className='img' src={leaf} alt="" />
               <h3 className='div-text2'>Landscape</h3>
 
-            </div2>
           </Col>
 
-          <Col className='div ms-5'>
-            <div3>
-              <img className='div-one' src={apple} alt="" />
+          <Col className='box ms-5'>
+            
+              <img className='img' src={apple} alt="" />
               <h3 className='div-text3'>Still Life</h3>
 
-            </div3>
           </Col>
 
-          <Col className='div ms-5'>
-            <div4>
-              <img className='div-one' src={house} alt="" />
+          <Col className='box ms-5'>
+            
+              <img className='img' src={house} alt="" />
               <h3 className='div-text4'>Urban</h3>
-            </div4>
+        
           </Col>
         </Row>
       </Container>

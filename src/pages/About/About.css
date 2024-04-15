@@ -2,7 +2,6 @@
     background-image: url(../../assets/bg-image.jpg);
     background-size: cover;
     height: 80vh;
-    max-width: 100%;
 }
 
 .text{
@@ -26,4 +25,25 @@
 
 .para{
     font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about{
+        height: 30vh;
+    }
+
+    .text{
+        margin: -180px 0px 0px 30px;
+        font-size: 70px;
+    }
+
+    .image{
+        margin: 0px 0px 100px 5px;
+        border-radius: 25px;
+        height: 500px;
+    
+    }
+
+    
 }

@@ -2,7 +2,12 @@
     margin: 180px 0px 0px 0px;
     height: 400px;
     width: 550px;
-    border-radius: 15px;
+
+}
+
+
+.fewword{
+    margin: 230px 0px 0px 0px;
 }
 
 .image-service{
@@ -12,4 +17,49 @@
 .text-service{
     color: rgb(240, 159, 37);
     margin: 20px 0px 0px 200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .images{
+        margin: 180px 0px 0px 0px;
+        height: 250px;
+        width:370px;
+
+    }
+
+    .fewword{
+        margin: 40px 0px 0px 0px;
+    }
+
+    .image-service1{
+       height: 600px;
+       width: 370px;
+    }
+    
+    .image-service2{
+        height: 210px;
+        width: 350px;
+        margin: 10px 0px 0px 10px;
+     }
+
+     .text-service{
+
+        margin: 50px 0px 0px 72px;
+    }
+
+    .para-service{
+
+        margin: 10px 0px 0px 0px;
+        text-align: end;
+        
+    }
+
+    /* .text{
+        margin: 0px 0px 0px 0px;
+    } */
+
+
+
 }

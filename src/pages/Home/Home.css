@@ -1,8 +1,9 @@
 .background {
-    max-width: 1000px;
+
+    max-width: 100%;
     padding-top: 290px;
     padding-left: 290px;
-   
+
 
 
 }
@@ -10,8 +11,8 @@
 
 .bgimg {
     background-size: cover;
-    height: 800px;
-    width: 100%;
+    height: 100vh;
+    max-width: 100%;
     background-image: url(../../assets/bg.jpg);
 
 }
@@ -52,49 +53,51 @@
 }
 
 
-.div {
+.box {
     height: 300px;
     width: 200px;
     border: solid 2px rgb(240, 159, 37);
 }
 
-.div-one {
+.img {
     margin: 100px 0px 0px 75px;
     justify-content: center;
 }
 
-.div-text {
+.div-text1 {
     margin: 10px 0px 0px 62px;
-}
-
-.div-text4 {
-    margin: 10px 0px 0px 72px;
-}
-
-.div-text3 {
-    margin: 10px 0px 0px 63px;
 }
 
 .div-text2 {
     margin: 10px 0px 0px 45px;
 }
 
-.footer-button{
-/* justify-content: center; */
-/* align-items: center; */
-margin: 10px 0px 0px 600px;
+.div-text3 {
+    margin: 10px 0px 0px 63px;
 }
 
-.secdiv{
- text-align: end;
- margin-top: -25px;
+.div-text4 {
+    margin: 10px 0px 0px 72px;
 }
 
-.footer{
+
+
+.footer-button {
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 10px 0px 0px 600px;
+}
+
+.secdiv {
+    text-align: end;
+    margin-top: -25px;
+}
+
+.footer {
     background-color: black;
     height: 50px;
     color: white;
-    text-decoration: underline  ;
+    text-decoration: underline;
     /* text-align: center; */
 
 }
@@ -113,23 +116,24 @@ margin: 10px 0px 0px 600px;
     }
 
     .background {
-        height: 400px;
-        margin-top: -200px;
-        width: 600px;
-        margin-left: -240px;
+        padding-left: 10px;
+        max-width: 95%;
+      
     }
 
     .bgimg {
 
-        /* height: 295px; */
-        width: 393px;
+     
+        width: 100%;
+       
+        background-position: 50%;
     }
 
     .home-img {
-        margin-top: 9px;
+        margin-top: 15px;
         height: 200px;
         width: 370px;
-        margin-bottom: 300px;
+        /* margin-bottom: 300px; */
         border-radius: 5%;
     }
 
@@ -138,7 +142,82 @@ margin: 10px 0px 0px 600px;
         color: rgb(75, 73, 73);
     }
 
+    .tital {
+        text-align: center;
+        /* margin: 200px, 0px, 0px, 0px; */
+        margin-top: 60px;
+    }
+
+    /* .cards {
+        margin-left: 10px;
+    
+    } */
+
+    .card-img {
+        height: 300px;
+
+    }
+
+    .card-tital {
+        color: rgb(240, 159, 37);
+        font-size: 25px;
+    }
+
+    .price {
+        margin-left: 250px;
+        margin-top: -35px;
+    }
 
 
+    .box {
+
+        border: solid 2px rgb(240, 159, 37);
+        margin: 0px 40px 30px 48px;
+        height: 300px;
+        width: 100px;
+
+    }
+
+    .img {
+        margin: 100px 0px 0px 110px;
+
+    }
+
+    .div-text1 {
+        margin: 10px 0px 0px 104px;
+
+    }
+
+    .div-text4 {
+        margin: 10px 0px 0px 113px;
+
+    }
+
+    .div-text3 {
+        margin: 10px 0px 0px 95px;
+    }
+
+    .div-text2 {
+        margin: 10px 0px 0px 75px;
+    }
+
+    .footer-button{
+        margin: 0px 0px 0px 130px;
+    }
+
+    .footer-1{
+        margin: 0px 0px 0px 0px ;
+        font-size: 12px;
+    }
+
+    .footer{
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    .secdiv{
+        margin: -13px 0px 0px 0px;
+        font-size: 12px;
+    }
 
 }

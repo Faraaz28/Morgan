@@ -9,7 +9,7 @@ function Blogs() {
       
       <h1 className='about'></h1>
       <h1 className='text pb-5'> Blogs</h1>
-      <div className="pb-5">
+      <div className="pb-5 ">
       < Shopping/>
       </div>
       <Footer/>

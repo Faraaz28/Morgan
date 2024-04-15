@@ -55,15 +55,15 @@ export default function Shopping() {
 
   return (
     <>
-      <Container>
-        <Row>
-          <h1 className='text-center painting  '>My Paintings</h1>
+      <Container className="">
+        <Row className="card-item">
+          <h1 className='text-center painting mt-5  '>My Paintings</h1>
           {paintings.map((item) => (
-            <Col className='pt-5' lg={4}>
-              <Card style={{ width: '20rem' }}>
+            <Col className='pt-3 ' lg={4}>
+              <Card  style={{ width: '20rem' }}>
                 <Card.Img variant="top" src={item.image} height={'320rem'} />
                 <Card.Body>
-                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Title variant="warning">{item.title}</Card.Title>
                   <Card.Text>
                     {item.description}
                   </Card.Text>

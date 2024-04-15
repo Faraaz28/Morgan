@@ -15,8 +15,8 @@ function About() {
 
       <Container fluid="md">
         <Row>
-          <Col>
-            <h1 className='pt-5 fewword'>
+          <Col className='ps-5'>
+            <h1 className='pt-5 ps-4 fewword'>
               A Few Words About Us
             </h1 >
             <p className='pt-5 para'>
