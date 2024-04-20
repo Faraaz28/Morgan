@@ -18,7 +18,13 @@ export default function Shopping() {
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (display) => {
+    setSelectedPost(display);
+    setShow(true);
+  };
+
+  const [selectedPost, setSelectedPost] = useState(null);
+
 
   const paintings = [
     {
@@ -57,33 +63,53 @@ export default function Shopping() {
     <>
       <Container className="">
         <Row className="card-item">
-          <h1 className='text-center painting mt-5  '>My Paintings</h1>
-          {paintings.map((item) => (
+          <h1 className='text-center painting mt-5'>My Paintings</h1>
+          {paintings.map((display) => (
             <Col className='pt-3 ' lg={4}>
-              <Card  style={{ width: '20rem' }}>
-                <Card.Img variant="top" src={item.image} height={'320rem'} />
+              <Card style={{ width: '20rem' }}>
+                <Card.Img variant="top" src={display.image} height={'320rem'} />
                 <Card.Body>
-                  <Card.Title variant="warning">{item.title}</Card.Title>
+                  <Card.Title variant="warning">{display.title}</Card.Title>
                   <Card.Text>
-                    {item.description}
+                    {display.description}
                   </Card.Text>
                   <Button variant="outline-warning" onClick={handleShow}>
-                     View Demo
+                    View Demo
                   </Button>
+
+
                   <Modal show={show} onHide={handleClose} animation={false}>
                     <Modal.Header closeButton>
-                      <Modal.Title>{item.title}</Modal.Title>
+                      <Modal.Title>Modal heading</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
                     <Modal.Footer>
-                      <Button variant="outline-warning" onClick={handleClose}>
+                      <Button variant="secondary" onClick={handleClose}>
                         Close
                       </Button>
-                      <Button variant="outline-warning" onClick={handleClose}>
+                      <Button variant="primary" onClick={handleClose}>
                         Save Changes
                       </Button>
                     </Modal.Footer>
                   </Modal>
+
+                  {/* <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>{selectedPost ? display.title : ''}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <img src={selectedPost ? display.image : ''} className="card-img" alt="Selected Post" />
+                    <p>{selectedPost ? display.description : ''}</p>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Close
+                    </Button>
+                    <Button variant="primary" onClick={handleClose}>
+                        Save Changes
+                    </Button>
+                </Modal.Footer>
+            </Modal> */}
                 </Card.Body>
               </Card>
             </Col>
