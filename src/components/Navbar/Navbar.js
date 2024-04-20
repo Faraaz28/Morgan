@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="Navbar">
+    <Navbar expand="lg" className="Navbar nav-bar">
       <Container>
             <img src={apple} className='logo' alt="" />
         <Navbar.Toggle className="nvbtn" aria-controls="basic-navbar-nav" />
